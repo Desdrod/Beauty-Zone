@@ -1,0 +1,10 @@
+:root {
+  --color-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+  font-family: Roboto;
+}

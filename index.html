@@ -9,9 +9,9 @@
   <body>
     <header>
       <div class="container">
-        <nav>
+        <nav class="header-container">
           <a href="./index.html"><img src="./images/logo.svg" alt="Logo" /></a>
-          <ul>
+          <ul class="header-menu">
             <li><a class="link" href="#about-section">Про нас</a></li>
             <li><a class="link" href="#reasons-section">Чому ми</a></li>
             <li>
@@ -19,6 +19,7 @@
             </li>
             <li><a class="link" href="#contact-section">Контакти</a></li>
           </ul>
+
           <address>
             <ul>
               <li>
@@ -44,10 +45,12 @@
     <main>
       <!-- Section 1 -->
       <section>
-        <div class="container">
-          <p>Косметологічна клініка</p>
-          <h1 class="hero-title">beauty zone</h1>
-          <button class="button" type="button">Замовити дзвінок</button>
+        <div class="container hero-container">
+          <p class="hero-text-first">Косметологічна клініка</p>
+          <h1 class="hero-title">beauty <br />zone</h1>
+          <button class="button accent-first-button" type="button">
+            Замовити дзвінок
+          </button>
           <p class="small-advertising">
             Запишись та отримай безкоштовну консультацію нашого косметолога
           </p>
@@ -56,43 +59,54 @@
       <!-- Section 2 -->
       <section id="about-section">
         <div class="container">
-          <h2 class="title about-accent">
-            Перевтілюйтесь в <span class="title-accent">beauty zone!</span>
-          </h2>
-          <p class="about-text">
-            Наша косметологічна клініка пропонує вам професійні послуги з
-            догляду за шкірою обличчя та тіла.
-          </p>
-          <p class="about-text">
-            B <span class="accent-dark">beauty zone</span> ми гарантуємо найвищі
-            стандарти якості та приємний сервіс. Наші косметологічні процедури
-            та препарати допоможуть вам підтримувати свою красу та молодість. З
-            нами краса назавжди!
-          </p>
+          <div class="about-container">
+            <div class="about-description">
+              <h2 class="title about-title">
+                Перевтілюйтесь <br />
+                в
+                <span class="title-accent about-accent">beauty zone!</span>
+              </h2>
+              <p class="about-text">
+                Наша косметологічна клініка пропонує вам професійні послуги
+                <br />з догляду за шкірою обличчя та тіла.
+              </p>
+              <p class="about-text">
+                B <span class="accent-dark">beauty zone</span> ми гарантуємо
+                найвищі стандарти якості <br />
+                та приємний сервіс. Наші косметологічні процедури та препарати
+                <br />допоможуть вам підтримувати свою красу та молодість.
+                <br />
+                З нами краса назавжди!
+              </p>
+            </div>
+            <div class="about-images">
+              <p>images</p>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Section 3 -->
       <section id="reasons-section">
-        <div class="container">
+        <div class="container reasons-container">
           <h2 class="title">
-            Чому люди <span class="title-accent">обирають нас</span>
+            Чому люди <br /><span class="title-accent">обирають нас</span>
           </h2>
-          <ul>
-            <li>
+          <ul class="reasons-card">
+            <li class="reason-card">
               <!-- icon -->
               <p class="reason-text">
                 Всі наші косметологи мають вищу медичну освіту та стаж роботи
                 від 5 років
               </p>
             </li>
-            <li>
+            <li class="reason-card">
               <!-- icon -->
               <p class="reason-text">
                 Використовуємо тільки професійне обладнання та косметику,
                 перевірену часом
               </p>
             </li>
-            <li>
+            <li class="reason-card">
               <!-- icon -->
               <p class="reason-text">
                 Наша мета - підкреслити переваги та приховати недоліки, а не
@@ -104,27 +118,33 @@
       </section>
       <!-- Section 4 -->
       <section id="procedures-section">
-        <div class="container">
-          <h2 class="title">
+        <div class="container procedures-container">
+          <h2 class="title procedures-title">
             Наші <span class="title-accent">процедури</span>
           </h2>
-          <ul>
-            <li>
-              <article>
+          <ul class="procedures-card">
+            <li class="procedure-card">
+              <article class="procedure-card">
                 <!-- img -->
-                <h3 class="procedure-text">Маски для обличчя</h3>
+                <h3 class="procedure-text">Маски <br />для обличчя</h3>
               </article>
             </li>
-            <li>
-              <article>
+            <li class="procedure-card">
+              <article class="procedure-card">
                 <!-- img -->
-                <h3 class="procedure-text">Ін'єкції для обличчя</h3>
+                <h3 class="procedure-text">
+                  Ін'єкції <br />
+                  для обличчя
+                </h3>
               </article>
             </li>
-            <li>
+            <li class="procedure-card">
               <article>
                 <!-- img -->
-                <h3 class="procedure-text">Очищення обличчя</h3>
+                <h3 class="procedure-text">
+                  Очищення <br />
+                  обличчя
+                </h3>
               </article>
             </li>
           </ul>
@@ -132,8 +152,10 @@
       </section>
       <!-- Section 5 -->
       <section id="contact-section">
-        <div class="container">
-          <h2 class="title">Як нас <span class="title-accent">знайти</span></h2>
+        <div class="container contact-container">
+          <h2 class="title contact-title">
+            Як нас <span class="title-accent">знайти</span>
+          </h2>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.932393986882!2d30.513304393024928!3d50.442359914702266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1706446790405!5m2!1suk!2sua"
             width="605"

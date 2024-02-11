@@ -76,7 +76,7 @@ p {
 }
 /* Header */
 .header-container {
-  padding: 32px 0;
+  padding: 42px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,9 +88,8 @@ p {
 }
 
 /* Hero  */
-.hero-container {
-  margin-top: 16px;
-  margin-bottom: 126px;
+.hero-section {
+  padding: 16px 0 126px;
 }
 .hero-text-first {
   margin: 0 0 16px;
@@ -151,9 +150,11 @@ footer .link {
 }
 
 /* About */
+.about-section {
+  padding-bottom: 176px;
+}
 .about-container {
   display: flex;
-  margin-bottom: 176px;
 }
 .about-accent {
   text-transform: capitalize;
@@ -184,8 +185,11 @@ footer .link {
 
 /* Reasons */
 
-.reasons-container {
-  margin-bottom: 122px;
+.reasons-section {
+  padding-bottom: 96px;
+}
+.reasons-title {
+  margin-bottom: 48px;
 }
 .reason-text {
   color: black;
@@ -208,8 +212,8 @@ footer .link {
 }
 
 /* Procedures */
-.procedures-container {
-  margin-bottom: 96px;
+.procedures-section {
+  padding-bottom: 96px;
 }
 .procedure-text {
   color: var(--color-primary-light);
@@ -225,12 +229,12 @@ footer .link {
   margin-bottom: 32px;
 }
 .procedures-title {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 /* Contact */
-.contact-container {
-  margin-bottom: 94px;
+.contact-section {
+  padding-bottom: 94px;
 }
 .contact-title {
   margin-bottom: 48px;
